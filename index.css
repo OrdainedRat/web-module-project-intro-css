@@ -1,7 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/*Meyer Reser*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -28,6 +25,68 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
+
+                
+    /*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+section{
+    padding:4% 0;
+}
+a{
+    text-decoration:none;
+    font-family: 'Roboto Mono', monospace;
+}
+                
+    /*Header Section*/
+nav{
+    padding:2% 0;
+}
+nav a{
+    display:inline-block;
+    width:10%;
+    padding:10% 0;
+}
+.orange{
+background-color:
+margin:
+}
+.blue{
+background-color:
+margin:
+}
+.yellow{
+background-color:
+margin:
+}
+
+/*Top Section*/
+.top{
+    position:relative;
+}
+.left, .right{
+    display:inline-block;
+    text-align:center;
+}
+.left{
+    width:30%
+}
+.left img{
+    border: radius 50%;
+    width:80%;
+}
+.right{
+    width:55%;
+    margin-left:5%;
 }
