@@ -1,4 +1,4 @@
-/*Meyer Reser*/
+/*Meyer Reset*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
                 
-    /*General Styles*/
+                                             /*General Styles*/
 html{
     font-size:62.5%;
 }
@@ -39,7 +39,7 @@ body{
 }
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
+    font-size: 8rem;
 }
 section{
     padding:4% 0;
@@ -48,36 +48,44 @@ a{
     text-decoration:none;
     font-family: 'Roboto Mono', monospace;
 }
+span{
+    font-weight: bold;
+}
                 
-    /*Header Section*/
+                                            /*Header Section*/
 nav{
     padding:2% 0;
+    
 }
 nav a{
-    display:inline-block;
-    width:10%;
-    padding:10% 0;
+    display: inline-block;
+    width:8%;
+    padding:5px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
 }
 .orange{
-background-color:
-margin:
+background-color:#FF764E;
+margin-left: 15%;
+
 }
 .blue{
-background-color:
-margin:
+background-color:#5ED3EB;
+margin:0 20%;
 }
 .yellow{
-background-color:
-margin:
+background-color:#FF764E;
+margin-right: 15%;
 }
 
-/*Top Section*/
+                                            /*Top Section*/
 .top{
     position:relative;
 }
 .left, .right{
     display:inline-block;
-    text-align:center;
+    text-align: center;
 }
 .left{
     width:30%
@@ -87,6 +95,60 @@ margin:
     width:80%;
 }
 .right{
-    width:55%;
+    width: 60%;
     margin-left:5%;
+    position:absolute;
+    top:1%
 }
+.text{
+    font-size: 2.1rem;
+}
+.text h2{
+    margin-bottom:2%
+}
+.text p{
+    margin-top: 1%;
+    }
+
+                                            /*Middle*/
+.one{
+    background-color: #DDB9A3;
+    color: #fff;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right:5%;
+    font-size: 2.5rem;
+    padding: 1% 0%;
+  }
+.one p{
+    text-align: center;
+    width: 100%;
+    }
+.valley{
+    margin-bottom: 15px;
+    
+}
+.two{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 1px;
+}
+div.Done img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    
+}
+div.Dtwo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 300px;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+    
